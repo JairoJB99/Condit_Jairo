@@ -1,0 +1,30 @@
+1. ENDPOINTS:
+- https://github.com/gothinkster/realworld/tree/master/api
+	- GET https://conduit.productionready.io/api/articles  
+	- GET https://conduit.productionready.io/api/articles?tag=dragons
+	- GET https://conduit.productionready.io/api/articles?author=yomogan
+	- GET https://conduit.productionready.io/api/articles?author=yomogan&limit=5&offset=0
+
+2. Create an account on the Conduit demo app:
+	- https://demo.productionready.io/#/register -> yomogan@gmail.com/Yomogan1
+	- GET https://conduit.productionready.io/api/profiles/yomogan
+
+3. Login endpoint:
+	- POST https://conduit.productionready.io/api/users/login
+	- In the Body tab of the request editor, select the raw option, and then select JSON in the dropdown.
+	{"user":{"email":"yomogan@gmail.com", "password":"Yomogan1"}}
+
+4. Profile endpoint:
+	- GET http://conduit.productionready.io/api/user
+	- Add an Authorization header to the request.
+	Go to the Headers tab below the request URL and add a new header with Authorization as the key 
+	and Token jwt.token.here as the value, replacing jwt.token.here with a token from a previous login request. 
+	Be sure to keep the space between Token and your JWT token.
+	
+5. Update User endpoint:
+	- PUT http://conduit.productionready.io/api/user
+	- In the Body tab of the request editor, select the raw option, and then select JSON in the dropdown.
+	{"user":{
+	    "bio": "I like to R2D2"
+	}}
+	- Add an Authorization header to the request.

@@ -1,0 +1,29 @@
+Karma.js
+    - Ejecuta los test de JS según se van construyendo, 
+    de forma que ante cualquier fallo el desarrollador se dará cuenta de inmediato.
+    - Se configura con Jasmine.js como framework de testing. 
+
+Jasmine
+    - Es un framework Behavior Driven Development para realizar Unit Testing. 
+    - La herramienta de testeo en Angular por defecto es Jasmine.
+    - https://desarrolloweb.com/articulos/conociendo-jasmine.html
+
+Protractor
+    - end-to-end testing framework for AngularJS.
+    - Verifica que los componentes de una aplicación funcionan correctamente entre sí.
+
+-----------------------------------------------------------------------------------------------
+$ sudo npm install -g protractor
+$ git clone git://github.com/pedcremo/StudentsRank.git 7_testing
+$ cd 7_testing
+$ npm install
+
+$ gulp
+- http://localhost:8000
+admin/admin
+
+- Afegir codi a package.json i conf.js
+- Altra terminal:
+$ npm run test
+$ sudo npm run update-webdriver
+$ npm run protractor

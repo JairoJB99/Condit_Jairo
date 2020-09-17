@@ -1,0 +1,16 @@
+-------------------------------- Newman --------------------------------------------------------------------
+- https://learning.getpostman.com/docs/postman/collection_runs/command_line_integration_with_newman/
+- https://solidgeargroup.com/automatizacion-de-pruebas-api?lang=es
+- https://www.winwire.com/api-testing-using-postman-newman/
+
+$ cd 2_backend/
+$ sudo service mongod start
+$ mongo
+    > show dbs
+    > use conduit_nodejs
+$ npm run dev
+GET http://0.0.0.0:3000/api/articles
+
+- En una altra terminal:
+    $ cd 2_backend/
+    $ npm run test -> ha d'estar tot en marxa

@@ -1,0 +1,21 @@
+------------------------------------- Install ---------------------------------------------
+- package.json: "swagger-ui-express": "2.0.6"
+$ npm update
+- app.js -> afegir codi
+
+- Afegir en l'arrel swagger.json
+    - https://github.com/gothinkster/realworld/blob/master/api/swagger.json
+	"host": "localhost:3000",
+    "basePath": "/api",
+    "schemes": "http"
+- Provar swagger.json en https://editor.swagger.io/
+
+$ sudo service mongod start
+$ mongo
+    > use conduit_nodejs
+$ npm run dev
+
+- http://localhost:3000/api-docs/
+- GET  http://localhost:3000/api/articles
+- GET  http://localhost:3000/api/profiles/yomogana
+- POST http://localhost:3000/api/users/login

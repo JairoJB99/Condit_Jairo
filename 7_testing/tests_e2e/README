@@ -1,0 +1,9 @@
+== Protractor ==
+npm install protractor --save-dev
+npm install gulp-protractor --save-dev
+
+First time ./node_modules/protractor/bin/webdriver-manager update
+
+NOT Start webdriver-manager in seperate console before executing gulp task
+./node_modules/protractor/bin/webdriver-manager Start
+gulp protractor

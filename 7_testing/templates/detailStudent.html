@@ -1,0 +1,15 @@
+<img src="src/server/data/fotos/${TPL_STUDENT.getId()}.jpg"/>
+<h1>${TPL_STUDENT.name} ${TPL_STUDENT.surname} ${TPL_STUDENT.getFinalGrade()}</h1>
+<h3>Attitude tasks</h3>
+
+<ul class="list-group">
+ <div ng-repeat="atItem in TPL_ATTITUDE_TASKS"> 
+ <li  class="list-group-item"><a href="#deleteXP/${TPL_STUDENT.id}/${atItem.id}"><button class='btnS btn btn-danger'><i class='fa fa-trash-o fa-1x'></i></button></a> ${atItem.points} -> ${atItem.description} ->  ${atItem.datetime} </li>
+</div>
+</ul>
+
+<h3>Graded tasks</h3>
+<ul class="list-group">
+ ${TPL_GRADED_TASKS}
+ </ul>
+   

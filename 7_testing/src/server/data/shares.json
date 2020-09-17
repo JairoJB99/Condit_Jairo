@@ -1,0 +1,9 @@
+{
+  "shares": [
+    {
+      "defaultSubject": "test",
+      "src": "src/server/data/343242/test/students.json",
+      "hits": 0
+    }
+  ]
+}
