@@ -27,4 +27,10 @@ componentsModule.component('articleList', ArticleList);
 import ListPagination from './article-helpers/list-pagination.component';
 componentsModule.component('listPagination', ListPagination);
 
+import OrdenadoresList from './ordenadores-helpers/ordenadores-list.component';
+componentsModule.component('ordenadoresList', OrdenadoresList);
+
+import OrdenadoresDetails from './ordenadores-helpers/ordenadores-details.component';
+componentsModule.component('ordenadoresDetails', OrdenadoresDetails);
+
 export default componentsModule;

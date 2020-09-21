@@ -1,10 +1,10 @@
 var router = require('express').Router();
-
 router.use('/', require('./users'));
 router.use('/profiles', require('./profiles'));
 router.use('/articles', require('./articles'));
 router.use('/houses', require('./houses'));
 router.use('/videoGames', require('./videoGames'));
+router.use('/ordenadores', require('./ordenadores'));
 router.use('/tags', require('./tags'));
 
 router.use(function(err, req, res, next){

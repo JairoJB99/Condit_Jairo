@@ -3,7 +3,7 @@ function SettingsConfig($stateProvider) {
 
   $stateProvider
   .state('app.settings', {
-    url: '/settings',
+    url: '/settings/',
     controller: 'SettingsCtrl',
     controllerAs: '$ctrl',
     templateUrl: 'settings/settings.html',

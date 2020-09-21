@@ -43,7 +43,6 @@ VideoGameSchema.methods.toJSONFor = function(user){
     year: this.year,
     createdAt: this.createdAt,
     updatedAt: this.updatedAt,
-    tagList: this.tagList,
     author: this.author.toProfileJSONFor(user)
   };
 };

@@ -13,6 +13,7 @@ class SettingsCtrl {
     }
 
     this.logout = User.logout.bind(User);
+    console.log("controller file settings");
 
   }
 
@@ -28,6 +29,7 @@ class SettingsCtrl {
       }
     )
   }
+
 
 }
 

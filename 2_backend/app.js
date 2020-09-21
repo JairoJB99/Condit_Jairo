@@ -44,8 +44,9 @@ if(isProduction){
 }
 
 require('./models/User');
-require('./models/VideoGame')
-require('./models/House')
+require('./models/VideoGame');
+require('./models/Ordenador');
+require('./models/House');
 require('./models/Article');
 require('./models/Comment');
 require('./config/passport');
