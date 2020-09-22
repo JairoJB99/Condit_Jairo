@@ -4,7 +4,6 @@ class VideoGamesCtrl {
     "ngInject";
     this._$scope = $scope;
     let videoGamesFiltred = []
-    console.log("controller file videoGame")
     
     videoGames.map(videoGame => {
       if (videoGame.year == "2017") {

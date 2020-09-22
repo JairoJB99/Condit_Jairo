@@ -5,7 +5,6 @@ class OrdenadoresListCtrl {
 
         this._$scope = $scope;
         this._$scope.openDetails = function () {
-            console.log("esossss");
             $state.go("app.detailsOrdenador", { slug: this.ordenador["slug"] });
           };
     }

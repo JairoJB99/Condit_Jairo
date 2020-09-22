@@ -12,7 +12,6 @@ export default class User {
 
   }
 
-
   attemptAuth(type, credentials) {
     let route = (type === 'login') ? '/login' : '';
     return this._$http({
@@ -33,7 +32,7 @@ export default class User {
 
   update(fields) {
     return this._$http({
-      url:  this._AppConstants.api + '/user',
+      url: this._AppConstants.api + '/user',
       method: 'PUT',
       data: { user: fields }
     }).then(

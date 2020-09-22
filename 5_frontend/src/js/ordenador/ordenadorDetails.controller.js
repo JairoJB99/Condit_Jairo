@@ -7,5 +7,4 @@ class DetailsOrdenadorCtrl {
 
     }
   }
-  
   export default DetailsOrdenadorCtrl;

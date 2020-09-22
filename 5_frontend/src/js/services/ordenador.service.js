@@ -28,9 +28,11 @@ export default class Ordenador {
             url: this._AppConstants.api + '/ordenadores/' + slug,
             method: 'GET'
         }).then(
-            (res) => deferred.resolve(res.data.ordenadores),
+            (res) => deferred.resolve(res.data.ordenador),
             (err) => deferred.reject(err)
         );
+
+        console.log(deferred.promise);
 
         return deferred.promise;
     }

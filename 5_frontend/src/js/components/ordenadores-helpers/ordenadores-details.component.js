@@ -4,7 +4,6 @@ class OrdenadoresDetailsCtrl {
         "ngInject";
 
         this._$scope = $scope;
-        console.log(this._$scope.ordenador);
         /*this._$scope.onBack = () => {
             $state.go('app.ordenador');
         }*/
