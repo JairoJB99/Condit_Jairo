@@ -20,7 +20,6 @@ import './editor';
 import './ordenador';
 import './videoGame';
 
-
 // Create and bootstrap application
 const requires = [
   'ui.router',
@@ -37,6 +36,7 @@ const requires = [
   'app.ordenador',
   'app.detailsOrdenador',
   'app.videoGame',
+  'app.sociallogin',
 
 ];
 

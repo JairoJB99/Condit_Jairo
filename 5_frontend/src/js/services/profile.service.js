@@ -1,10 +1,8 @@
 export default class Profile {
   constructor (AppConstants, $http) {
     'ngInject';
-
     this._AppConstants = AppConstants;
     this._$http = $http;
-
   }
 
   get(username) {
